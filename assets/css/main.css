@@ -23,7 +23,7 @@ button{
 main.container-main{
     height: 100vh;
 
-    background-image: url(/assets/img/getStarted.jpg);
+    background-image: url(../assets/img/getStarted.jpg);
 
     /* background-position-x: -13rem;
     background-position-y: -1.5rem;
