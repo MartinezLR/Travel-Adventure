@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+:root{
+
+    /* Color */
+
+    --color-one: #00579D;
+    
+    --color-two: #768F2A;
+
+    --color-three: #E7F0CA;
+}
+
+body{
+    font-family: 'Inter', sans-serif !important;
+}
+
+button{
+    background: none ;
+    border: none;
+}
+
+main.container-main{
+    height: 100vh;
+
+    background-image: url(/assets/img/getStarted.jpg);
+
+    /* background-position-x: -13rem;
+    background-position-y: -1.5rem;
+
+    background-size: 72rem; */
+
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+div.container-filter{
+    height: 100vh;
+
+    background-color: rgba(6, 19, 50, 0.348); 
+}
+
+div.container-top{  
+    height: 10%;
+}
+
+div.container-center{
+    height: 60%;
+}
+
+div.container-center h1{
+    color: #E7F0CA;
+
+    font-weight: 800;
+
+    font-size: 2.2em;
+    line-height: 3.3rem;
+}
+
+div.container-bottom{
+    height: 30%;
+}
+
+button.button-help i{
+    font-size: 2.2rem !important;
+
+    color: #E7F0CA;
+}
+
+button.button-started{
+    background-color:  #E7F0CA !important;
+    /* #596c1c */
+
+    padding: 9px 2.2rem;
+    border-radius: 24px;
+
+    margin-bottom: 5rem;
+
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.600) !important;
+}
+
+button.button-started span{
+    color: #768F2A;
+    /* #eef7bf */
+
+    font-weight: 700;
+    font-size: 21px;
+}
+
+/* Start Class Positions Flex */
+
+.start-x{
+    display: flex;
+
+    justify-content: start;
+}
+
+.start-y{
+    display: flex;
+
+    align-items: start;
+}
+
+.start-x-y{
+    display: flex;
+
+    justify-content: start;
+
+    align-items: start;
+}
+
+.center-x{
+    display: flex;
+
+    justify-content: center;
+}
+
+.center-y{
+    display: flex;
+
+    align-items: center;
+}
+
+.center-x-y{
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+}
+
+.end-x{
+    display: flex;
+
+    justify-content: end;
+}
+
+.end-y{
+    display: flex;
+    
+    align-items: end;
+}
+
+.end-x-y{
+    display: flex;
+
+    justify-content: end;
+
+    align-items: end;
+}
+
+/* End Class Positions Flex */
