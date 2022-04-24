@@ -1,5 +1,41 @@
-<section class="center-x-y" style="height: 100vh; background-color: var(--color-one)">
-    <button class="button-back" ng-click="setPages('pages/getStarted.html')">
-        <i class='bx bx-arrow-back p-4'></i>
-    </button>
+<section class="container-fluid" style="height: 100vh; background-color: var(--color-one)">
+
+    <div class="row">
+        <div class="col-12 my-3">
+
+            <div class="row">
+
+                <div class="col-6 start-y center-y">
+                    <i class='bx bx-menu-alt-left text-white' style="font-size: 3rem;"></i>
+                </div>
+
+                <div class="col-6 end-x center-y">
+                    <button class="rounded-circle bg-white p-4"></button>
+                </div>
+            </div>
+        </div>
+
+        <div class="container-scroll-items bg-white h-100 w-100">
+
+            <div class="position-relative">
+
+
+                <button class="button-back position-absolute top-0 start-50 translate-middle"
+                    ng-click="setPages('pages/getStarted.html')">
+                    <i class='bx bx-arrow-back p-4'></i>
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <style>
+        .container-scroll-items {
+            position: absolute;
+
+            top: 40%;
+            left: 0;
+
+            border-radius: 3rem 3rem 0 0;
+        }
+    </style>
 </section>
